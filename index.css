@@ -1,0 +1,73 @@
+@font-face {
+    font-family: digitalFont;
+    src: url(./fonts/DS-DIGIT.TTF);
+}
+
+body {
+    background-color: #1B244A;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    color: rgba(238, 238, 238, 1);
+    text-align: center;
+}
+
+.home,
+.guest {
+    width: 18em;
+    padding: auto;
+}
+
+.score-led {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+h2 {
+    font-family: digitalFont;
+    font-size: 5.625em;
+    color: red;
+    text-align: center;
+    /* padding-top: 0.18em; */
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+}
+
+.led {
+    width: 8.5em;
+    background-color: black;
+    margin: 1.25em auto;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+    gap: 0.4em;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    border: 0;
+    padding: 0.5625em;
+    cursor: pointer;
+    background-color: transparent;
+    color: rgba(154, 171, 216, 1);
+    border: 2px solid rgba(154, 171, 216, 1);
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
